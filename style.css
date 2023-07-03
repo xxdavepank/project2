@@ -1,22 +1,22 @@
 
 .background{
     margin: 0;
+    display: flex;
 }
 .container {
     margin: 0;
+    display: flex;
+    flex-direction:column ;
 }
 .container div{
     border: 1px solid transparent;
     display:flex;
     
-    
-    
-  /* flex: 1; */
-  
 }
 .item1{
     display: flex;
-    background: #1F2937;  
+    background: #1F2937;
+    flex: 1;  
     
 
 }
